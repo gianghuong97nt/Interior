@@ -13,10 +13,6 @@
     padding: 50px 0;
 }
 
-.header .main-menu {
-
-}
-
 .header .main-menu ul {
     list-style: none;
     float: right;
@@ -24,7 +20,7 @@
 
 .header .main-menu li {
     float: left;
-    padding: 10px 25px;
+    padding: 30px 25px;
 }
 
 .header .main-menu li a{
@@ -77,8 +73,68 @@ Footer
 
 }
 
-.footer .content-form input, textarea {
+.content-form input, textarea {
     border: none;
     border-bottom: 1px solid #c8c8c8;
+    font-size: 15px;
+    width: 100%;
+}
+
+.first-line input {
+    width: 40%;
+}
+
+.first-line:after{
+    content: '';
+    clear: both;
+}
+
+.first-line input[name="email"]{
+    float: right;
+}
+
+
+.footer .contact-form .content-form .contact-form-row{
+    margin-bottom: 30px;
+}
+.content-form input[type="submit"] {
+    background: #f66c27;
+    color: #ffffff;
+    width: auto;
+    padding: 20px 60px;
+    border-radius: 32px;
+
+}
+.submit {
+    text-align: center;
+}
+
+.footer .contact-info {
+    padding-top: 100px;
+    padding-left: 110px;
+
+}
+
+.contact-info h3 {
+    font-size: 45px;
+    color: #010101;
+}
+
+.contact-info .contact-form-row {
+    margin-bottom: 50px;
+}
+
+.contact-info .contact-form-row h4 {
+    font-size: 25px;
+    color: #010101;
+}
+
+.contact-info .contact-form-row p {
+    font-size: 15px;
+    color: #333333;
+}
+
+.contact-info .contact-form-row p span {
+    color: #f66c27;
 }
 
