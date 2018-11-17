@@ -1,0 +1,84 @@
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.header {
+    box-sizing: border-box;
+    height: 170px;
+    max-height: 170px;
+    padding: 50px 0;
+}
+
+.header .main-menu {
+
+}
+
+.header .main-menu ul {
+    list-style: none;
+    float: right;
+}
+
+.header .main-menu li {
+    float: left;
+    padding: 10px 25px;
+}
+
+.header .main-menu li a{
+    font-size: 20px;
+    color: #b3b3b4;
+}
+
+.header .main-menu li i {
+    color: #b3b3b4;
+    padding: 10px;
+}
+
+.banner {
+    margin-top: -170px;
+    height: 936px;
+    width: 100%;
+    background: url("../images/banner.jpg") top center;
+    display: table;
+}
+.banner h1 {
+    font-size: 83px;
+    color: #000000;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.banner h1 span {
+    color: #f66c27;
+}
+
+/*
+Footer
+ */
+
+.footer {
+    background: linear-gradient(to right, #f66c27 50% , #ffffff 50%);
+}
+
+.footer .contact-form {
+    background: #f66c27;
+    height: 700px;
+    box-sizing: border-box;
+}
+.footer .contact-form .content-form{
+    background: #ffffff;
+    padding: 60px;
+    /*top right bottom left*/
+    margin: 140px 100px 130px 150px;
+
+}
+
+.footer .content-form input, textarea {
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+}
+
