@@ -52,11 +52,209 @@
     color: #f66c27;
 }
 
+
+/**
+---------------------CSS Content-------------------------------------
+ */
+/*--------------------Content2*/
+
+.content2 {
+    margin-top: 125px;
+}
+
+.content2 h3{
+    color: #010101;
+    font-size: 45px;
+}
+
+.content2 .div {
+    margin: 70px 0;
+}
+
+.content2 .col-sm-4 {
+    height: 375px;
+    width: 355px;
+    text-align: center;
+}
+.content2 .div1 {
+    background: #eeeded;
+}
+
+.content2 .div3 {
+    background: #eeeded;
+}
+
+.content2 img {
+    margin-top: 85px;
+}
+
+.content2 h4 {
+    color: #010101;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.content2 p {
+    color: #9b9b9b;
+    font-size: 15px;
+}
+/*--------------------Content3*/
+
+.content3 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.content3 .character h3{
+    color: #333333;
+    margin-bottom: 65px;
+    font-size: 45px;
+}
+.content3 .character p {
+    color: #888888;
+    font-size: 15px;
+}
+/*--------------------Content4*/
+.content .content4{
+    height: 360px;
+    background: linear-gradient(to right, #f66c27, #f9915c);
+}
+.content4 .subscribe {
+    font-size: 200px;
+    color: #f5854e;
+    padding-top: 60px;
+    text-align: center;
+}
+.content4 .add_mail {
+    text-align: center;
+    margin-top: -270px;
+}
+.content4 .express_mail{
+    font-size: 30px;
+    color: #ffffff;
+}
+.enter_mail {
+    font-size: 18px;
+    margin-top: 60px;
+
+}
+
+.enter_mail:after{
+    content: '';
+    clear: both;
+}
+
+.enter_mail input[name='enter_email']{
+    border: none;
+    border-radius: 55px ;
+    background: #f3f2f2;
+    width: 490px;
+    color: #8b8b8b;
+    padding: 20px 60px;
+}
+
+.enter_mail input[name='submit_email']{
+    border: none;
+    border-radius: 55px ;
+    background: #f48146;
+    width: auto;
+    color: #ffffff;
+    padding: 20px 60px;
+}
+/**
+---------------Content5
+ */
+
+.content5 {
+    box-sizing: border-box ;
+    height: 590px;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.content5 .div1 {
+    color: #010101;
+    font-size: 45px;
+    padding-top: 95px;
+}
+
+.content5 div3 {
+    padding: 30px;
+    font-size: 15px;
+    color: #919191;
+}
+.content5 div4 p{
+    font-size: 17px;
+    color: #919191;
+    margin: 30px;
+}
+
+.content5 div4 p span{
+    color: #f66c27;
+}
+
+
+/**
+-----------Content6
+ */
+
+.content6 {
+    height: 665px;
+    margin-top: 150px;
+}
+.content6 .pic1 h3 {
+    font-size: 45px;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+.content6 .pic1 p {
+    color: #cdcdcd;
+    font-size: 15px;
+}
+.content6 .pic1 p span {
+    color: #f48146;
+}
+.content6 input {
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    background: #f66c27;
+    height: 55px;
+    width: 185px;
+    margin-top: 40px;
+}
+.content6 .pic1 .image{
+    margin: 65px -15px;
+
+}
+
+.content6 .pic2 {
+    background: #f66c27;
+    box-sizing: border-box;
+}
+
+.content6 .pic2 img {
+    margin: -10px -30px;
+}
+.content6 .pic3 {
+    margin-top: -30px;
+}
+
+.content6 .pic3 .row2 {
+    margin: -20px -15px;
+}
+
+
+
+
 /*
-Footer
+-----------------------Footer----------------------------------------
  */
 
 .footer {
+    margin-top: 145px;
     background: linear-gradient(to right, #f66c27 50% , #ffffff 50%);
 }
 
@@ -68,7 +266,7 @@ Footer
 .footer .contact-form .content-form{
     background: #ffffff;
     padding: 60px;
-    /*top right bottom left*/
+
     margin: 140px 100px 130px 150px;
 
 }
@@ -109,10 +307,10 @@ Footer
     text-align: center;
 }
 
-.footer .contact-info {
+.contact-info {
     padding-top: 100px;
     padding-left: 110px;
-
+    height: 700px;
 }
 
 .contact-info h3 {
@@ -120,21 +318,25 @@ Footer
     color: #010101;
 }
 
-.contact-info .contact-form-row {
-    margin-bottom: 50px;
+.contact-info .contact-info-row {
+    padding: 20px 0;
 }
 
-.contact-info .contact-form-row h4 {
-    font-size: 25px;
-    color: #010101;
-}
+/*.contact-info-row {*/
+    /*padding: 40px 0;*/
+/*}*/
 
-.contact-info .contact-form-row p {
-    font-size: 15px;
-    color: #333333;
-}
+/*.contact-info .contact-info-row h4 {*/
+    /*font-size: 25px;*/
+    /*color: #010101;*/
+/*}*/
 
-.contact-info .contact-form-row p span {
-    color: #f66c27;
-}
+/*.contact-info .contact-info-row p {*/
+    /*font-size: 15px;*/
+    /*color: #333333;*/
+/*}*/
+
+/*.contact-info .contact-info-row p span {*/
+    /*color: #f66c27;*/
+/*}*/
 
